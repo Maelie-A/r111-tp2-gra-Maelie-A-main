@@ -30,18 +30,18 @@
         <img src="/assets/icons/logo-black.svg" alt="Logo Bbrands Agency" />
       </a>
 
-      <button>
+      <button aria-label="Toggle navigation menu">
         <span></span>
       </button>
 
-      <nav>
+      <nav role="navigation" aria-label="Main navigation">
         <ul>
           <li><a href="works.html">Works</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="team.html">Team</a></li>
         </ul>
-        <ul>
+        <ul aria-label="Social media links">
           <li>
             <a href="#"
               ><img src="/assets/icons/behance.svg" alt="Icon Behance"
@@ -58,7 +58,7 @@
             /></a>
           </li>
         </ul>
-        <ul>
+        <ul aria-label="Legal links">
           <li><a href="terms-conditions.html">Terms & conditions</a></li>
           <li><a href="privacy-policy.html">Privacy Policy</a></li>
         </ul>
@@ -66,18 +66,21 @@
     </header>
 
     <main>
-      <div>
+      <div role="region" aria-labelledby="main-heading">
         <h1>Building. Brands.</h1>
         <p>
           We love to explore new ways to engage with brands and reach new levels
           of creative outlets through design.
         </p>
-        <a href="mailto:hello@bbrands.co.uk">
+        <a
+          href="mailto:hello@bbrands.co.uk"
+          aria-label="Send an email to hello@bbrands.co.uk"
+        >
           <img src="/assets/icons/send.svg" alt="Icone envoyer" />
           hello@bbrands.co.uk
         </a>
       </div>
-      <section>
+      <section role="region" aria-labelledby="latest-work">
         <header>
           <h2>Latest work</h2>
           <p>Here are some exciting new projects we’ve been working on</p>
